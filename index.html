@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- animatyion -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -97,12 +99,12 @@
     </a>
 
     <section id="programs" class="programs">
-        <div class="section-title white">
+        <div class="section-title white" data-aos="fade-up">
             <p>Why choose us</p>
             <h2>Results-driven fitness programs</h2>
         </div>
 
-        <div class="cards">
+        <div class="cards" data-aos="fade-up">
             <div class="card">
                 <i class="fa-solid fa-users"></i>
                 <h3>Group Classes</h3>
@@ -124,12 +126,12 @@
     </section>
 
     <section id="trainers" class="trainers">
-        <div class="section-title">
+        <div class="section-title" data-aos="fade-up">
             <p>Meet the team</p>
             <h2>Elite Coaches</h2>
         </div>
 
-        <div class="trainer-list">
+        <div class="trainer-list" data-aos="fade-up">
             <div class="trainer">
                 <img src="https://cdn.evolve-mma.com/wp-content/uploads/2018/09/Freddie-Roach-Boxing-Trainer.png" alt="Mark Antony">
                 <h3>Mark Antony</h3>
@@ -199,6 +201,10 @@
             <p>© 2026 Dream Fitness. All rights reserved.</p>
         </div>
     </footer>
-
 </body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
